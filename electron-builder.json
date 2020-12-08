@@ -1,0 +1,42 @@
+{
+  "productName": "example-electron",
+  "publish": null,
+  "files": [
+    "out-electron/**/*",
+    "dist/**/*",
+    "node_modules/**/*",
+    "!node_modules/typescript",
+    "!node_modules/schematics-utilities",
+    "!**/*.ts",
+    "!*.code-workspace",
+    "!LICENSE.md",
+    "!package.json",
+    "!package-lock.json",
+    "!src/",
+    "!e2e/",
+    "!hooks/",
+    "!angular.json",
+    "!_config.yml",
+    "!karma.conf.js",
+    "!tsconfig.json",
+    "!tslint.json"
+  ],
+  "win": {
+    "target": [
+      "portable"
+    ],
+    "artifactName": "${productName}.${ext}"
+  },
+  "mac": {
+    "target": [
+      "dmg"
+    ],
+    "artifactName": "${productName}.${ext}"
+  },
+  "linux": {
+    "target": [
+      "AppImage"
+    ],
+    "artifactName": "${productName}.${ext}"
+  }
+}
