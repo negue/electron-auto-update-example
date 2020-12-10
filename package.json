@@ -1,12 +1,12 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder build --publish never",
-    "deploy": "electron-builder build --publish always"
+    "build-local": "electron-builder build --publish never",
+    "deploy-local": "electron-builder build --publish always"
   },
   "author": "",
   "license": "ISC",
