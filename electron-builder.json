@@ -1,6 +1,8 @@
 {
   "productName": "example-electron",
-  "publish": null,
+  "publish": {
+    "provider": "github"
+  },
   "files": [
     "index.js",
     "node_modules/**/*",
