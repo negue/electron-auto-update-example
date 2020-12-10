@@ -2,8 +2,7 @@
   "productName": "example-electron",
   "publish": null,
   "files": [
-    "out-electron/**/*",
-    "dist/**/*",
+    "index.js",
     "node_modules/**/*",
     "!node_modules/typescript",
     "!node_modules/schematics-utilities",
