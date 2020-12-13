@@ -5,6 +5,7 @@
   },
   "files": [
     "index.js",
+    "index.html",
     "node_modules/**/*",
     "!node_modules/typescript",
     "!node_modules/schematics-utilities",
