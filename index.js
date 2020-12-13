@@ -11,13 +11,15 @@ function createWindow () {
       nodeIntegration: true,
     },
   });
+  mainWindow.once('ready-to-show', () => {
+    console.info('ready-to-show got called');
+    autoUpdater.checkForUpdatesAndNotify();
+  });
   mainWindow.loadFile('index.html');
   mainWindow.on('closed', function () {
     mainWindow = null;
   });
-  mainWindow.once('ready-to-show', () => {
-    autoUpdater.checkForUpdatesAndNotify();
-  });
+
 }
 
 app.on('ready', () => {
