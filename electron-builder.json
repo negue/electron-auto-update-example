@@ -25,9 +25,14 @@
   ],
   "win": {
     "target": [
-      "portable"
+      "portable",
+      "squirrel",
+      "zip"
     ],
     "artifactName": "${productName}.${ext}"
+  },
+  "squirrelWindows": {
+    "remoteReleases": true
   },
   "mac": {
     "target": [

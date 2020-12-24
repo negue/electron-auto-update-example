@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,12 @@
     "type": "git",
     "url": "https://github.com/negue/electron-auto-update-example.git"
   },
-  "author": "",
+  "author": "negue",
   "license": "ISC",
   "devDependencies": {
     "electron": "^11.0.4",
-    "electron-builder": "^22.9.1"
+    "electron-builder": "^22.9.1",
+    "electron-builder-squirrel-windows": "^22.10.4"
   },
   "dependencies": {
     "electron-updater": "^4.3.5"
